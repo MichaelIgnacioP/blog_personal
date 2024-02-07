@@ -1,5 +1,5 @@
 import { connect } from 'react-redux'
-import logo_boomslag from 'assets/img/boomslag-black.png'
+// import logo_boomslag from 'assets/img/boomslag-black.png'
 
 const navigation = {
     solutions: [
@@ -99,7 +99,7 @@ function Footer() {
                 <div className="xl:grid xl:grid-cols-3 xl:gap-8">
                     <div className="space-y-8 xl:col-span-1">
                         <img
-                            src={logo_boomslag}
+                            src={'https://bafybeiczl4dcxupma2zeyilkukfl4yge64axnhajd722wxgin62mtts6uy.ipfs.w3s.link/murkivamarketing.png'}
                             width={140}
                             height={120}
                             className="" />
@@ -119,7 +119,7 @@ function Footer() {
                         <div className="md:grid md:grid-cols-2 md:gap-8">
                             <div>
                                 <h3 className="text-base font-medium text-gray-900">Visit Us</h3>
-                                <ul role="list" className="mt-4 space-y-4">
+                                <ul role='list' className="mt-4 space-y-4">
                                     {navigation.solutions.map((item) => (
                                         <li key={item.name}>
                                             <a href={item.href} className="text-base text-gray-500 hover:text-gray-900">
@@ -131,7 +131,7 @@ function Footer() {
                             </div>
                             <div className="mt-12 md:mt-0">
                                 <h3 className="text-base font-medium text-gray-900">Contact</h3>
-                                <ul role="list" className="mt-4 space-y-4">
+                                <ul role='list' className="mt-4 space-y-4">
                                     {navigation.support.map((item) => (
                                         <li key={item.name}>
                                             <a href={item.href} className="text-base text-gray-500 hover:text-gray-900">
@@ -145,7 +145,7 @@ function Footer() {
                         <div className="md:grid md:grid-cols-2 md:gap-8">
                             <div>
                                 <h3 className="text-base font-medium text-gray-900">Company</h3>
-                                <ul role="list" className="mt-4 space-y-4">
+                                <ul role='list' className="mt-4 space-y-4">
                                     {navigation.company.map((item) => (
                                         <li key={item.name}>
                                             <a href={item.href} className="text-base text-gray-500 hover:text-gray-900">
@@ -157,7 +157,7 @@ function Footer() {
                             </div>
                             <div className="mt-12 md:mt-0">
                                 <h3 className="text-base font-medium text-gray-900">Services</h3>
-                                <ul role="list" className="mt-4 space-y-4">
+                                <ul role='list' className="mt-4 space-y-4">
                                     {navigation.legal.map((item) => (
                                         <li key={item.name}>
                                             <a href={item.href} className="text-base text-gray-500 hover:text-gray-900">
@@ -171,7 +171,7 @@ function Footer() {
                     </div>
                 </div>
                 <div className="mt-12 border-t border-gray-200 pt-8">
-                    <p className="text-base text-gray-400 xl:text-center">&copy; 2023 Elevate, Inc. All rights reserved.</p>
+                    <p className="text-base text-gray-400 xl:text-center">&copy; 2023 Murkiva, Inc. All rights reserved.</p>
                 </div>
             </div>
         </footer>
